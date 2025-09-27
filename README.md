@@ -4,16 +4,16 @@
 - Node.js 20.19.1
 - Angular CLI 18
 
-# 1. Subir backend desde la carpeta backend
+## 1. Subir backend desde la carpeta backend
 ./mvnw spring-boot:run
 
-# 2. Instalar Angular CLI (versión 18)
+## 2. Instalar Angular CLI (versión 18)
 npm install -g @angular/cli@18
 
-# 3. Instalar Node.js (versión 20.19.1)
+## 3. Instalar Node.js (versión 20.19.1)
 Asegúrate de tener la versión correcta usando nvm o descargándola desde nodejs.org
 
-# Script que use para crear la tabla:
+### Script que use para crear la tabla:
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     picture_large VARCHAR(255),
